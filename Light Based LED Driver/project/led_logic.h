@@ -1,0 +1,10 @@
+void led_gpio_init(void);
+void led_rgb (int lux);
+void adc_gpio_init (void);
+void adc_init (void);
+void push_buttons_init (void);
+void adjust (void);
+int getlowth (void);
+int gethighth (void);
+void pwm_init (void);
+void duty_cycle (int lux);
